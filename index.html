@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Clyra Code Editor</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="/system/theme/system_theme.css">
+</head>
+<div id="style">
+  
+</div>
+
+<body>
+  <nav>
+    Clyra Code Editor
+  </nav>
+  <br>
+  <div style="float: left;">
+    <textarea name="code" id="code" cols="30" rows="10">
+      
+      <!DOCTYPE html>
+      <html>
+      
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+      </head>
+      
+      <body>
+      Out Put
+      </body>
+      
+      </html>
+      
+      
+    </textarea>
+  </div>
+  <div>
+    <button style="float: left;" onclick="run(code())"> Run </button>
+  </div>
+  <div style="float: left;background-color: white;height: 178px;width: 350px;color: black;user-select: text;" id="out">
+    
+    Out Put
+    
+  </div>
+ 
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  
+  
+  <div style="margin-top: 10px;float: left;">
+    <button onclick="alert('Download a theme and then paste the theme.js file in ./themes/')">Themes</button>
+  
+  </div>
+  <div style="float: left;background-color: transparent;border: 1px solid white;width: 85%;height: 25px;margin: 17px;padding-top: 5px;overflow: scroll;" id="themeInfo">
+    
+    Theme Name : Clyra System Theme , Theme Developer : Operating Syste 
+    
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+  <script src="themes/themes.js"></script>
+  
+
+  
+
+</body>
+</html>
